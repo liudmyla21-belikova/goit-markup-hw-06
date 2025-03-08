@@ -1133,6 +1133,7 @@ margin-left: 24px;
 }
 
 .form-label {
+  font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -1201,6 +1202,7 @@ margin-left: 24px;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
+    margin-bottom: 24px;
     align-items: center;
 }
 
@@ -1220,7 +1222,7 @@ margin-left: 24px;
     flex-shrink: 0;
 }
 
-.hidden:checked+label>span {
+.hidden:checked+.label-text .modal-checkbox-span {
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
@@ -1228,7 +1230,7 @@ margin-left: 24px;
 
 .form-link {
     color: #4d5ae5;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
 }
@@ -1237,7 +1239,7 @@ margin-left: 24px;
     display: block;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     font-family: 'Roboto', sans-serif;
     font-style: 16px;
@@ -1249,7 +1251,7 @@ margin-left: 24px;
     background-color: #4d5ae5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    align-self: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
