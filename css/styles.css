@@ -1192,7 +1192,7 @@ margin-left: 24px;
     flex-shrink: 0;
 }
 
-.hidden:checked + label > span {
+.input:checked + label > span {
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
