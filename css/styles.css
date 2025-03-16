@@ -1193,7 +1193,7 @@ margin-left: 24px;
     flex-shrink: 0;
 }
 
-.input:checked + label > span {
+.visually-hidden:checked+.label-text .modal-checkbox-span {
     background-color: #404bbf;
     fill: #f4f4fd;
     border: none;
